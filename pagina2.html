@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
 
     <style>
         body {
-            background-color: #f63131;
+            background-color: #eb0b25;
             /* Cor de fundo do corpo */
 
 
@@ -42,7 +42,7 @@
         }
 
         #div3 {
-            background-color: rgb(184, 55, 240);
+            background-color: rgba(246, 0, 144, 0.718);
             /* cor de fundo */
             border-radius: 10px;
             /* raio de curvatura dos cantos */
@@ -54,6 +54,7 @@
             /* alinhamento do texto */
             width: 100px;
             height: 20px;
+            float: left;
         }
 
         #div4 {
@@ -69,6 +70,7 @@
             /* alinhamento do texto */
             width: 100px;
             height: 20px;
+            float: right;
         }
 
         .paragrafo {
@@ -84,9 +86,63 @@
             width: 100%;
             height: 100%;
         }
+
+        ul {
+            font-size: 25px;
+        } 
+        #divisoria3{
+            background-color: rgba(240, 10, 144, 0.718);
+            /* cor de fundo */
+            border-radius: 10px;
+            /* raio de curvatura dos cantos */
+            border: 3px solid #2c021ce3;
+            /* cor da borda e largura */
+            padding: 10px;
+            /* preenchimento interno */
+            text-align: left;
+
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+
+        #divisoria {
+            background-color: rgba(200, 29, 129, 0.718);
+            /* cor de fundo */
+            border-radius: 10px;
+            /* raio de curvatura dos cantos */
+            border: 3px solid #2c021ce3;
+            /* cor da borda e largura */
+            padding: 10px;
+            /* preenchimento interno */
+            text-align: left;
+            border-right: 10px;
+
+            justify-content: center;
+            margin-left: 200px;
+            margin-top: 10px;
+        }
+
+        #divisoria2 {
+            background-color: rgba(166, 42, 114, 0.718);
+            /* cor de fundo */
+            border-radius: 10px;
+            /* raio de curvatura dos cantos */
+            border: 3px solid #2c021ce3;
+            /* cor da borda e largura */
+            padding: 10px;
+            /* preenchimento interno */
+            text-align: left;
+
+            margin-left: 500px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+       
     </style>
 
-    <link rel="icon" type="image/png" href="logo3.0 vozconsciente.jpeg">
+    <link rel="icon" type="image/png" href="imagens/logo3.0 vozconsciente.jpeg">
 
 </head>
 
@@ -94,42 +150,20 @@
 
     <div id="div1" class="container">Identificando tipos de assédio</div>
 
-    <h2>Moral:</h2>
 
-    <p class="paragrafo">
-    <ul>
-        <li>Tratamento mais rígido a uma pessoa do que aos demais;</li>
-        <li> Atribuição de tarefas que a inferiorizam;</li>
-        <li>Indiferença;</li>
-        <li>Perseguição pessoal;</li>
-        <li>Exigência além do que ocorre normalmente no ambiente de trabalho;</li>
-        <li> Atribuição de tarefas complexas sem transmitir a instrução necessária, entre outros</li>
-    </ul>
-    </p>
-
-
-    <h2>Sexual:</h2>
-    <ul>
-        <li>Convites impertinentes;</li>
-        <li>Contato físico não desejado;</li>
-        <li>Insinuações explícitas ou veladas de caráter sexual;</li>
-        <li>Gestos ou palavras, escritas ou faladas, de duplo sentido.</li>
-    </ul>
-
-
-    <h2>Virtual:</h2>
-
-
-
-    <ul>
-        <li>Envio de fotos íntimas de terceiros sem aprovação;</li>
-        <li>Envio de mensagens com conotação sexual;</li>
-        <li>Propagação de discursos de ódio contra um indivíduo ou determinado grupo de pessoas;</li>
-        <li>Divulgação não autorizada de dados de terceiros;</li>
-        <li> Comentários pejorativos em face de terceiros nas redes sociais;</li>
-        <li>Instigação à violência;</li>
-        <li> Difusão de rumores ou boatos que afetem a honra de terceiros.</li>
-    </ul>
+    <div id="divisoria3">
+        <h2>Moral:</h2>
+        <p class="paragrafo">
+        <ul>
+            <li>Tratamento mais rígido a uma pessoa do que aos demais;</li>
+            <li> Atribuição de tarefas que a inferiorizam;</li>
+            <li>Indiferença;</li>
+            <li>Perseguição pessoal;</li>
+            <li>Exigência além do que ocorre normalmente no ambiente de trabalho;</li>
+            <li> Atribuição de tarefas complexas sem transmitir a instrução necessária, entre outros</li>
+        </ul>
+        </p>
+    </div>
 
 
 
@@ -137,9 +171,29 @@
 
 
 
+    <div id="divisoria">
+        <h2>Sexual:</h2>
+        <ul>
+            <li>Convites impertinentes;</li>
+            <li>Contato físico não desejado;</li>
+            <li>Insinuações explícitas ou veladas de caráter sexual;</li>
+            <li>Gestos ou palavras, escritas ou faladas, de duplo sentido.</li>
+        </ul>
+    </div>
 
+    <div id="divisoria2">
+        <h2>Virtual:</h2>
 
-
+        <ul>
+            <li>Envio de fotos íntimas de terceiros sem aprovação;</li>
+            <li>Envio de mensagens com conotação sexual;</li>
+            <li>Propagação de discursos de ódio contra um indivíduo ou determinado grupo de pessoas;</li>
+            <li>Divulgação não autorizada de dados de terceiros;</li>
+            <li> Comentários pejorativos em face de terceiros nas redes sociais;</li>
+            <li>Instigação à violência;</li>
+            <li> Difusão de rumores ou boatos que afetem a honra de terceiros.</li>
+        </ul>
+    </div>
 
 
 
@@ -150,42 +204,17 @@
 
 
 
+    <div id="div3">
+
+        <a href="index.html">Voltar</a>
+
+    </div>
 
 
+    <div id="div4">
 
-
-
-
-    <table>
-        <tr>
-            <td>
-                <div id="div3">
-
-                    <a href="index.html">Voltar</a>
-
-                </div>
-
-
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div id="div4">
-
-                    <a href="pagina3.html">Denunciando</a>
-
-                </div>
-            </td>
-        </tr>
-
-
-    </table>
-
-
-
-
-
-
+        <a href="pagina3.html">Leis</a>
+    </div>
 
 
 
